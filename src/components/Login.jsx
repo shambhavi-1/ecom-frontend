@@ -19,7 +19,7 @@ function Login() {
           headers: {
             "Content-Type": "application/json",
           },
-          credentials: "include", // ✅ this is important for sending cookies
+          
           body: JSON.stringify({ email, password }),
         }
       );
