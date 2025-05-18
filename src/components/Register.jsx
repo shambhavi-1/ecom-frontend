@@ -19,7 +19,6 @@ function Register() {
           headers: {
             "Content-Type": "application/json",
           },
-          credentials: "include", // ✅ for cookies in future use
           body: JSON.stringify({ email, username, password }),
         }
       );
